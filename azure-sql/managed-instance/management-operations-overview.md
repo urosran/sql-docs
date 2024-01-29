@@ -41,6 +41,10 @@ Fast provisioning only applies:
 - to instances that are deployed into subnets that have the November 2022 feature wave enabled, which includes both dev/test and production subscriptions.
 - to instances that are not zone redundant.
 
+Fast provisioning exclusions:
+- Everything not cover by the scenario described above
+- Instances created as geo replicas
+
 ## Duration
 
 The duration of operations on the virtual cluster can vary, but typically have the longest duration. 
